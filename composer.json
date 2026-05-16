@@ -1,0 +1,26 @@
+{
+  "name": "comphp/config-xml",
+  "version": "0.3",
+  "autoload": {
+    "psr-4": {
+      "CommonPHP\\Drivers\\Config\\XML\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CommonPHP\\Drivers\\Config\\XML\\Tests\\": "tests/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "require": {
+    "php": "^8.5"
+  }
+}
