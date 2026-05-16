@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <entry key="name" type="string">demo</entry>
+  <entry key="enabled" type="boolean">true</entry>
+  <entry key="retries" type="integer">3</entry>
+  <entry key="database" type="array">
+    <entry key="host" type="string">localhost</entry>
+  </entry>
+</config>

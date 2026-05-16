@@ -16,6 +16,7 @@
   },
   "require": {
     "php": "^8.5",
+    "ext-dom": "*",
     "comphp/config": "^0.3"
   },
   "require-dev": {
